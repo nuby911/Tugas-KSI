@@ -8,6 +8,9 @@ Proyek implementasi web dummy untuk mata kuliah **Keamanan Sistem Informasi (PMI
 - **Kelas:** MI-5A
 - **Program Studi:** D-III Manajemen Informatika
 - **Institusi:** Politeknik Negeri Lampung (POLINELA)
+- **URL Publik Netlify:** https://kantin-pol.netlify.app
+- **URL Versi Rentan:** https://kantin-pol.netlify.app/24781025-kantin-voucher-rentan.html
+- **URL Versi Aman:** https://kantin-pol.netlify.app/24781025-kantin-voucher-aman.html
 - **Repository GitHub:** https://github.com/nuby911/Tugas-KSI
 - **Kasus Uji:** LIVE-1 (Chatbot Kantin Kampus · Direct Prompt Injection)
 

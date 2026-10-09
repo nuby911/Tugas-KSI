@@ -2,7 +2,7 @@
   "app": "P06-KSI-AI-LLM",
   "storageKey": "p06-ksi-ai-llm-state-v1",
   "version": 1,
-  "exportedAt": "2026-10-09T12:15:12.495Z",
+  "exportedAt": "2026-10-09T12:34:20.886Z",
   "state": {
     "version": 1,
     "identity": {
@@ -465,10 +465,10 @@
       "platform": "netlify",
       "provider": "Google AI Studio",
       "modelName": "gemini-1.5-flash",
-      "urlVulnerable": "https://kantin-polinela-24781025.netlify.app/24781025-kantin-voucher-rentan.html",
-      "urlSecure": "https://kantin-polinela-24781025.netlify.app/24781025-kantin-voucher-aman.html",
+      "urlVulnerable": "https://kantin-pol.netlify.app/24781025-kantin-voucher-rentan.html",
+      "urlSecure": "https://kantin-pol.netlify.app/24781025-kantin-voucher-aman.html",
       "urlRepo": "https://github.com/nuby911/Tugas-KSI",
-      "deployedAt": "2026-10-09T18:15",
+      "deployedAt": "2026-10-09T19:30",
       "risk": "Direct Prompt Injection (teori bagian 2): penyerang memasukkan teks perintah yang mengklaim otoritas kasir untuk menimpa instruksi sistem dan memaksa penerbitan voucher diskon 100%.",
       "control": "Kontrol di luar model: 1) Instruction Hierarchy (mengisolasi masukan pengguna sebagai data murni dengan JSON.stringify). 2) Output Validation & Enforcement (mencegat pola VOUCHER-P06-99 di lapisan aplikasi). 3) Pencabutan hak eksekusi tool buat_voucher dari asisten.",
       "reasoning": "Kontrol memutus mekanisme serangan karena validasi dan eksekusi tool berada di kode aplikasi di luar model. Sekalipun model AI disusupi atau mematuhi penyerang, kode aplikasi tidak akan pernah mengeksekusi voucher atau menampilkan kode diskon ke pengguna.",
