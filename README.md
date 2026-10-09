@@ -33,7 +33,6 @@ Membuktikan secara empiris kerentanan **Direct Prompt Injection** pada asisten c
 | `24781025-kantin-voucher-aman.html` | Berkas mandiri versi aman (memenuhi kontrak `window.asisten` dengan mitigasi). |
 | `24781025-LIVE-1-rentan-log.json` | Log rekaman pengujian LLM asli versi rentan (format `P06-WEB-DUMMY`). |
 | `24781025-LIVE-1-aman-log.json` | Log rekaman pengujian LLM asli versi aman (format `P06-WEB-DUMMY`). |
-| `P06-backup-24781025.json` | Berkas backup praktikum resmi 100% lengkap (identitas, 4 lab, 10 studi kasus, web dummy). |
 
 ---
 
