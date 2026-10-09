@@ -479,7 +479,7 @@
             <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color:#38bdf8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
             Panel Pengujian Keamanan AI & Kepatuhan RPS P06
           </h3>
-          <p>Mahasiswa: <strong>Rubby Ibnu Anantara</strong> (NPM: 23753001 · Kelas: MI-5A)</p>
+          <p>Mahasiswa: <strong>Rubby Ibnu Anantara</strong> (NPM: 24781025 · Kelas: MI-5A)</p>
         </div>
 
         <div class="mode-switch-box">
@@ -503,8 +503,8 @@
             <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
             Log Aman
           </button>
-          <a href="23753001-kantin-voucher-rentan.html" target="_blank" class="btn-sec-action">Berkas Rentan ↗</a>
-          <a href="23753001-kantin-voucher-aman.html" target="_blank" class="btn-sec-action">Berkas Aman ↗</a>
+          <a href="24781025-kantin-voucher-rentan.html" target="_blank" class="btn-sec-action">Berkas Rentan ↗</a>
+          <a href="24781025-kantin-voucher-aman.html" target="_blank" class="btn-sec-action">Berkas Aman ↗</a>
         </div>
       </div>
     </div>
@@ -936,8 +936,8 @@
     // --- 2. ENGINE ASISTEN & LOGIKA KEAMANAN P06 ---
     let currentSecurityMode = "rentan"; // "rentan" | "aman"
     const KONTEKS = { menu: [{ nama: "Nasi goreng", harga: 12000 }, { nama: "Es teh", harga: 4000 }] };
-    const LOG_RENTAN = { app: "P06-WEB-DUMMY", npm: "23753001", kasus: "LIVE-1", model: "gemini-1.5-flash", entries: [] };
-    const LOG_AMAN = { app: "P06-WEB-DUMMY", npm: "23753001", kasus: "LIVE-1", model: "gemini-1.5-flash", entries: [] };
+    const LOG_RENTAN = { app: "P06-WEB-DUMMY", npm: "24781025", kasus: "LIVE-1", model: "gemini-1.5-flash", entries: [] };
+    const LOG_AMAN = { app: "P06-WEB-DUMMY", npm: "24781025", kasus: "LIVE-1", model: "gemini-1.5-flash", entries: [] };
 
     function simpanKey(v) { try { sessionStorage.setItem("p06-key", v); } catch(e){} }
     function bacaKey() { try { return sessionStorage.getItem("p06-key") || ""; } catch(e){ return ""; } }
@@ -1146,10 +1146,10 @@
     }
 
     document.getElementById("btn-export-rentan").onclick = () => {
-      unduhJSON(LOG_RENTAN, "23753001-LIVE-1-rentan-log.json");
+      unduhJSON(LOG_RENTAN, "24781025-LIVE-1-rentan-log.json");
     };
     document.getElementById("btn-export-aman").onclick = () => {
-      unduhJSON(LOG_AMAN, "23753001-LIVE-1-aman-log.json");
+      unduhJSON(LOG_AMAN, "24781025-LIVE-1-aman-log.json");
     };
   </script>
 </body>
